@@ -74,6 +74,4 @@ end
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                = 'elasticbeanstalk-ap-northeast-1-149281802293'
   s3_sync.region                = 'ap-northeast-1'
-  s3_sync.aws_access_key_id     = 'AKIAJFYFEDBMW5RBYM5A'
-  s3_sync.aws_secret_access_key = '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'
 end
