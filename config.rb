@@ -70,8 +70,3 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
-# 
-# activate :s3_sync do |s3_sync|
-#   s3_sync.bucket                = 'elasticbeanstalk-ap-northeast-1-149281802293'
-#   s3_sync.region                = 'ap-northeast-1'
-# end
