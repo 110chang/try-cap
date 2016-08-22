@@ -1,5 +1,6 @@
 machine:
   timezone: Asia/Tokyo
+  ruby: version: 2.0.0p481
 dependencies:
   pre:
     - gem install bundler --pre
@@ -7,4 +8,5 @@ deployment:
   deploy:
     branch: master
     commands:
-      - bundle exec middleman s3_sync
+      - bundle exec cap production deploy:
+          timeout: 1200

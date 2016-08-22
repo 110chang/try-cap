@@ -18,3 +18,7 @@
 .DS_Store
 
 /vendor
+
+# Ignore cap log
+
+/log
