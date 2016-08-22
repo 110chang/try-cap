@@ -4,15 +4,15 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :app, %w{sakura.110chang}
-role :web, %w{sakura.110chang}
-role :db,  %w{sakura.110chang}
+#role :app, %w{110chang@160.16.196.169}
+role :web, %w{110chang@160.16.196.169}
+#role :db,  %w{110chang@160.16.196.169}
 
-set :ssh_options, {
-  # ローカル環境のユーザーの秘密鍵ファイルを設定する
-  keys: %w(~/.ssh/id_rsa),
-  forward_agent: true,
-}
+# set :ssh_options, {
+#   # ローカル環境のユーザーの秘密鍵ファイルを設定する
+#   keys: %w(~/.ssh/id_rsa.sakura.110chang),
+#   forward_agent: true,
+# }
 
 # Extended Server Syntax
 # ======================
@@ -20,7 +20,7 @@ set :ssh_options, {
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server 'sakura.110chang', user: '110chang', roles: %w{web app db}
+#server 'sakura.110chang', user: '110chang', roles: %w{web app db}
 
 
 # Custom SSH Options
