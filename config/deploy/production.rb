@@ -22,11 +22,11 @@ role :web, %w{110chang@160.16.196.169}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
-#    keys: %w(/home/rlisowski/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+set :ssh_options, {
+  keys: %w(~/.ssh/id_rsa.sakura.110chang),
+  forward_agent: true,
+  auth_methods: %w(publickey)
+}
 #
 # And/or per server (overrides global)
 # ------------------------------------
