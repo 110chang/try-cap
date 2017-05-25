@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 #lock '3.2.1'
 
-set :application, 'try_cap'
+set :application, 'app'
 set :repo_url, 'https://github.com/110chang/try-cap'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/var/www/trycap'
+set :deploy_to, '/var/www/try_cap'
 
 # Default value for :scm is :git
 # set :scm, :git
