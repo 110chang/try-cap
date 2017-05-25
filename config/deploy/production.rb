@@ -14,6 +14,7 @@ role :web, %w{110chang@160.16.196.169}
 
 #server '160.16.196.169', user: '110chang', roles: %w{web}
 
+
 # Custom SSH Options
 # ==================
 # You may pass any option but keep in mind that net/ssh understands a
