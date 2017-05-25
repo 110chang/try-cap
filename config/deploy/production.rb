@@ -23,7 +23,7 @@ role :web, %w{110chang@160.16.196.169}
 # Global options
 # --------------
 set :ssh_options, {
-  keys: %w(~/.ssh/id_rsa.sakura.110chang ~/.ssh/id_rsa_github ~/.ssh/110chang-GitHub),
+  keys: %w(~/.ssh/id_rsa.sakura.110chang ~/.ssh/id_rsa_github),
   forward_agent: true,
   auth_methods: %w(publickey)
 }
